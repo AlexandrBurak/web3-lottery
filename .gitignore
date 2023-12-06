@@ -1,4 +1,39 @@
-package-lock.json
-node_modules/
-.vscode/
+# dependencies
+/node_modules
+
+# misc
+.DS_Store
+node_modules
+.env
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat files
+lottery-smart-contract/cache
+lottery-smart-contract/artifacts/
+
+# TypeChain files
+lottery-smart-contract/typechain
+lottery-smart-contract/typechain-types
+
+# solidity-coverage files
+lottery-smart-contract/coverage
+lottery-smart-contract/coverage.json
+
+# compiled JavaScript
+*.js
+
 .idea/
+.vscode/
+
+.next/
